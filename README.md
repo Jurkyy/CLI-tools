@@ -2,10 +2,12 @@
 A collection of Rust practice projects.
 
 ## rcat
-Usage: rcat [OPTIONS]... [FILE]...
+Usage: ```rcat [OPTIONS] [FILE]```
 
 OPTIONS:
-  -f, --filenames, --filename   display filenames
-  -n, --number                  number all output lines
-  -l, --newline                 prints a newline after each file
-  -?, --help                    display this help and exit
+| KEYWORD                     | Description                      |
+|-----------------------------|----------------------------------|
+| -f, --filenames, --filename | Display the filenames            |
+| -n, --number                | Number all the output lines      |
+| -l, --newline               | Prints a newline after each file |
+| -?, --help                  | Display this help and exit       |
