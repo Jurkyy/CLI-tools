@@ -9,7 +9,6 @@ struct Flags {
     line_no: isize,
     filename: bool,
     number: bool,
-    newline: bool,
 }
 
 fn _help() {
@@ -20,58 +19,54 @@ fn _help() {
         "OPTIONS:\n",
         "  -f, --filenames, --filename   display filenames\n",
         "  -n, --number                  number all output lines \n",
-        "  -l, --newline                 prints a newline after each file \n",
         "  -?, --help                    display this help and exit\n"
     ));
 }
 
-fn _error(_path: &Path, _message: &Error) {
-    let mut _text: String = _message.to_string();
-    eprintln!("{}: {}: {}", env!("CARGO_PKG_NAME"), _path.display(), _text);
+fn _error(path: &Path, message: &Error) {
+    let text: String = message.to_string();
+    eprintln!("{}: {}: {}", env!("CARGO_PKG_NAME"), path.display(), text);
     std::io::stderr().flush().unwrap();
 }
 
 fn main() {
-    let _args = (std::env::args()).skip(1);
-    let mut _file_names = Vec::new();
-    let mut _flags = Flags {
+    let args = (std::env::args()).skip(1);
+    let mut file_names = Vec::new();
+    let mut flags = Flags {
         line_no: 1,
         filename: false,
         number: false,
-        newline: false,
     };
-    for _arg in _args {
-        if _arg.starts_with("-") && _arg.len() > 1 {
-            if _arg == "-f" || _arg == "--filenames" || _arg == "--filename" {
-                _flags.filename = true;
-            } else if _arg == "-n" || _arg == "--number" {
-                _flags.number = true;
-            } else if _arg == "-?" || _arg == "--help" {
+    for arg in args {
+        if arg.starts_with('-') && arg.len() > 1 {
+            if arg == "-f" || arg == "--filenames" || arg == "--filename" {
+                flags.filename = true;
+            } else if arg == "-n" || arg == "--number" {
+                flags.number = true;
+            } else if arg == "-?" || arg == "--help" {
                 _help();
                 process::exit(0);
-            } else if _arg == "-l" || _arg == "--newline" {
-                _flags.newline = true
             } else {
-                println!("unrecognized option -- '{}'", _arg);
+                println!("unrecognized option -- '{}'", arg);
                 process::exit(1);
             }
         } else {
-            _file_names.push(_arg)
+            file_names.push(arg)
         }
     }
 
-    let mut _buffer = [0u8; BUFFER_SIZE];
+    let mut buffer = [0u8; BUFFER_SIZE];
 
-    for _file_name in _file_names {
-        let mut _bytes = 0;
-        let mut _byte = [0];
-        let mut _last = [10];
+    for file_name in file_names {
+        let mut bytes = 0;
+        let mut byte = [0];
+        let mut last = [10];
         let mut _count = 0;
-        let _path = Path::new(&_file_name);
+        let _path = Path::new(&file_name);
         match File::open(_path) {
-            Ok(ref mut _file) => {
+            Ok(ref mut file) => {
                 while {
-                    match _file.read(&mut _buffer) {
+                    match file.read(&mut buffer) {
                         Ok(_bytes) => _count = _bytes,
                         Err(_err) => {
                             _error(_path, &_err);
@@ -81,29 +76,28 @@ fn main() {
                     _count
                 } > 0
                 {
-                    if _flags.filename && _bytes == 0 {
+                    if flags.filename && bytes == 0 {
                         eprintln!("{}", _path.display())
                     }
-                    _bytes += _count;
-                    for _index in 0.._count {
-                        _byte[0] = _buffer[_index];
-                        if _last[0] == 10 {
-                            if _flags.number {
-                                print!("{0:4}\t", _flags.line_no);
+                    bytes += _count;
+                    // 0..count instead of u8, to avoid needless memory allocations.
+                    for index in 0.._count {
+                        byte[0] = buffer[index];
+                        if last[0] == 10 {
+                            if flags.number {
+                                print!("{0:4}\t", flags.line_no);
                             }
-                            _flags.line_no += 1;
+                            flags.line_no += 1;
                         }
-                        print!("{}", _byte[0] as char);
+                        print!("{}", byte[0] as char);
                         std::io::stdout().flush().unwrap();
 
-                        _last = _byte;
+                        last = byte;
                     }
                 }
-                if _flags.newline {
-                    println!();
-                }
+                println!();
             }
-            Err(_message) => _error(&_path, &_message),
+            Err(_message) => _error(_path, &_message),
         }
     }
 }
