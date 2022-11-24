@@ -1,5 +1,5 @@
-# rust-practice
-A collection of Rust practice projects.
+# rust-cli-tools
+A collection of Rust commandline projects.
 
 ## rcat
 Usage: ```rcat [OPTIONS] [FILE]```
