@@ -1,5 +1,5 @@
-# rust-cli-tools
-A collection of Rust commandline projects.
+# rcat
+An implementation of the linux command line tool "cat", written in Rust.
 
 ## rcat
 Usage: ```rcat [OPTIONS] [FILE]```
