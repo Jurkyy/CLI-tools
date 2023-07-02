@@ -63,6 +63,7 @@ fn main() {
         let mut last = [10];
         let mut _count = 0;
         let _path = Path::new(&file_name);
+        flags.line_no = 1;
         match File::open(_path) {
             Ok(ref mut file) => {
                 while {
