@@ -31,7 +31,7 @@ Vitamin D (D2 + D3), International Units: 0.00 IU
 Vitamin K (phylloquinone): 34.99 µg
 Water: 658.31 g
 Zinc, Zn: 1.78 mg
-
+---
 rice: 500.00 gram
 Calcium, Ca: 45.00 mg
 Carbohydrate, by difference: 396.50 g
@@ -59,7 +59,7 @@ Vitamin C, total ascorbic acid: 0.00 mg
 Vitamin D (D2 + D3), International Units: 0.00 IU
 Water: 64.50 g
 Zinc, Zn: 5.80 mg
-
+---
 chicken: 1.00 kilogram
 Calcium, Ca: 110.00 mg
 Carbohydrate, by difference: 0.00 g
@@ -93,7 +93,7 @@ Vitamin D (D2 + D3), International Units: 100.00 IU
 Vitamin K (phylloquinone): 15.00 µg
 Water: 660.00 g
 Zinc, Zn: 13.10 mg
-
+---
 chicken or vegetable stock: 500.00 milliliter
 Calcium, Ca: 15.22 mg
 Carbohydrate, by difference: 17.90 g
@@ -126,7 +126,7 @@ Vitamin D (D2 + D3), International Units: 0.00 IU
 Vitamin K (phylloquinone): 1.01 µg
 Water: 467.65 g
 Zinc, Zn: 0.71 mg
-
+---
 onions: 2.00 whole
 Calcium, Ca: 69.00 mg
 Carbohydrate, by difference: 28.02 g
@@ -160,7 +160,7 @@ Vitamin D (D2 + D3), International Units: 0.00 IU
 Vitamin K (phylloquinone): 1.20 µg
 Water: 267.30 g
 Zinc, Zn: 0.51 mg
-
+---
 black bean: 1.00 kilogram
 Calcium, Ca: 1230.00 mg
 Carbohydrate, by difference: 624.00 g
@@ -194,7 +194,7 @@ Vitamin D (D2 + D3), International Units: 0.00 IU
 Vitamin K (phylloquinone): 56.00 µg
 Water: 110.00 g
 Zinc, Zn: 36.50 mg
-
+---
 olive oil: 200.00 milliliter
 Calcium, Ca: 1.83 mg
 Carbohydrate, by difference: 0.00 g

@@ -8,10 +8,9 @@ async fn get_data_for_recipe(title: &str, ingredients: &[&str]) -> Result<Value,
     let app_id = "2a46a669"; // Replace with your app ID
 
     // Create a JSON payload with your recipe ingredients
-    let ingredients_list: Vec<&str> = ingredients.iter().map(|&ingredient| ingredient).collect();
     let payload = json!({
         "title": title,
-        "ingr": ingredients_list
+        "ingr": ingredients
     });
 
     let url = format!(
