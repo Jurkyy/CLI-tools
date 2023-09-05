@@ -1,0 +1,234 @@
+red bell pepper: 6.00 whole
+Calcium, Ca: 49.98 mg
+Carbohydrate, by difference: 43.05 g
+Cholesterol: 0.00 mg
+Energy: 185.64 kcal
+Fatty acids, total monounsaturated: 0.05 g
+Fatty acids, total polyunsaturated: 1.11 g
+Fatty acids, total saturated: 0.42 g
+Total lipid (fat): 2.14 g
+Fatty acids, total trans: 0.00 g
+Iron, Fe: 3.07 mg
+Fiber, total dietary: 14.99 g
+Folic acid: 0.00 µg
+Folate, DFE: 328.44 µg
+Folate, food: 328.44 µg
+Potassium, K: 1506.54 mg
+Magnesium, Mg: 85.68 mg
+Sodium, Na: 28.56 mg
+Niacin: 6.99 mg
+Phosphorus, P: 185.64 mg
+Protein: 7.07 g
+Riboflavin: 0.61 mg
+Sugars, total including NLEA: 29.99 g
+Thiamin: 0.39 mg
+Vitamin E (alpha-tocopherol): 11.28 mg
+Vitamin A, RAE: 1120.98 µg
+Vitamin B-12: 0.00 µg
+Vitamin B-6: 2.08 mg
+Vitamin C, total ascorbic acid: 913.92 mg
+Vitamin D (D2 + D3), International Units: 0.00 IU
+Vitamin K (phylloquinone): 34.99 µg
+Water: 658.31 g
+Zinc, Zn: 1.78 mg
+
+rice: 500.00 gram
+Calcium, Ca: 45.00 mg
+Carbohydrate, by difference: 396.50 g
+Cholesterol: 0.00 mg
+Energy: 1800.00 kcal
+Fatty acids, total monounsaturated: 0.91 g
+Fatty acids, total polyunsaturated: 0.78 g
+Fatty acids, total saturated: 0.79 g
+Total lipid (fat): 2.90 g
+Iron, Fe: 4.00 mg
+Folic acid: 0.00 µg
+Folate, DFE: 45.00 µg
+Folate, food: 45.00 µg
+Potassium, K: 430.00 mg
+Magnesium, Mg: 175.00 mg
+Sodium, Na: 5.00 mg
+Niacin: 8.00 mg
+Phosphorus, P: 540.00 mg
+Protein: 33.05 g
+Riboflavin: 0.24 mg
+Thiamin: 0.35 mg
+Vitamin B-12: 0.00 µg
+Vitamin B-6: 0.72 mg
+Vitamin C, total ascorbic acid: 0.00 mg
+Vitamin D (D2 + D3), International Units: 0.00 IU
+Water: 64.50 g
+Zinc, Zn: 5.80 mg
+
+chicken: 1.00 kilogram
+Calcium, Ca: 110.00 mg
+Carbohydrate, by difference: 0.00 g
+Cholesterol: 750.00 mg
+Energy: 2150.00 kcal
+Fatty acids, total monounsaturated: 62.40 g
+Fatty acids, total polyunsaturated: 32.30 g
+Fatty acids, total saturated: 43.10 g
+Total lipid (fat): 151.00 g
+Fatty acids, total trans: 0.97 g
+Iron, Fe: 9.00 mg
+Fiber, total dietary: 0.00 g
+Folic acid: 0.00 µg
+Folate, DFE: 60.00 µg
+Folate, food: 60.00 µg
+Potassium, K: 1890.00 mg
+Magnesium, Mg: 200.00 mg
+Sodium, Na: 700.00 mg
+Niacin: 68.00 mg
+Phosphorus, P: 1470.00 mg
+Protein: 186.00 g
+Riboflavin: 1.20 mg
+Sugars, total including NLEA: 0.00 g
+Thiamin: 0.60 mg
+Vitamin E (alpha-tocopherol): 3.00 mg
+Vitamin A, RAE: 411.00 µg
+Vitamin B-12: 3.10 µg
+Vitamin B-6: 3.50 mg
+Vitamin C, total ascorbic acid: 16.00 mg
+Vitamin D (D2 + D3), International Units: 100.00 IU
+Vitamin K (phylloquinone): 15.00 µg
+Water: 660.00 g
+Zinc, Zn: 13.10 mg
+
+chicken or vegetable stock: 500.00 milliliter
+Calcium, Ca: 15.22 mg
+Carbohydrate, by difference: 17.90 g
+Cholesterol: 15.22 mg
+Energy: 182.60 kcal
+Fatty acids, total monounsaturated: 2.95 g
+Fatty acids, total polyunsaturated: 1.08 g
+Fatty acids, total saturated: 1.63 g
+Total lipid (fat): 6.09 g
+Iron, Fe: 1.07 mg
+Fiber, total dietary: 0.00 g
+Folic acid: 0.00 µg
+Folate, DFE: 25.36 µg
+Folate, food: 25.36 µg
+Potassium, K: 532.57 mg
+Magnesium, Mg: 20.29 mg
+Sodium, Na: 725.31 mg
+Niacin: 8.01 mg
+Phosphorus, P: 136.95 mg
+Protein: 12.78 g
+Riboflavin: 0.43 mg
+Sugars, total including NLEA: 8.01 g
+Thiamin: 0.18 mg
+Vitamin E (alpha-tocopherol): 0.15 mg
+Vitamin A, RAE: 4.56 µg
+Vitamin B-12: 0.00 µg
+Vitamin B-6: 0.31 mg
+Vitamin C, total ascorbic acid: 1.01 mg
+Vitamin D (D2 + D3), International Units: 0.00 IU
+Vitamin K (phylloquinone): 1.01 µg
+Water: 467.65 g
+Zinc, Zn: 0.71 mg
+
+onions: 2.00 whole
+Calcium, Ca: 69.00 mg
+Carbohydrate, by difference: 28.02 g
+Cholesterol: 0.00 mg
+Energy: 120.00 kcal
+Fatty acids, total monounsaturated: 0.04 g
+Fatty acids, total polyunsaturated: 0.05 g
+Fatty acids, total saturated: 0.13 g
+Total lipid (fat): 0.30 g
+Fatty acids, total trans: 0.00 g
+Iron, Fe: 0.63 mg
+Fiber, total dietary: 5.10 g
+Folic acid: 0.00 µg
+Folate, DFE: 57.00 µg
+Folate, food: 57.00 µg
+Potassium, K: 438.00 mg
+Magnesium, Mg: 30.00 mg
+Sodium, Na: 12.00 mg
+Niacin: 0.35 mg
+Phosphorus, P: 87.00 mg
+Protein: 3.30 g
+Riboflavin: 0.08 mg
+Sugars, total including NLEA: 12.72 g
+Thiamin: 0.14 mg
+Vitamin E (alpha-tocopherol): 0.06 mg
+Vitamin A, RAE: 0.00 µg
+Vitamin B-12: 0.00 µg
+Vitamin B-6: 0.36 mg
+Vitamin C, total ascorbic acid: 22.20 mg
+Vitamin D (D2 + D3), International Units: 0.00 IU
+Vitamin K (phylloquinone): 1.20 µg
+Water: 267.30 g
+Zinc, Zn: 0.51 mg
+
+black bean: 1.00 kilogram
+Calcium, Ca: 1230.00 mg
+Carbohydrate, by difference: 624.00 g
+Cholesterol: 0.00 mg
+Energy: 3410.00 kcal
+Fatty acids, total monounsaturated: 1.23 g
+Fatty acids, total polyunsaturated: 6.10 g
+Fatty acids, total saturated: 3.66 g
+Total lipid (fat): 14.20 g
+Fatty acids, total trans: 0.00 g
+Iron, Fe: 50.20 mg
+Fiber, total dietary: 155.00 g
+Folic acid: 0.00 µg
+Folate, DFE: 4440.00 µg
+Folate, food: 4440.00 µg
+Potassium, K: 14800.00 mg
+Magnesium, Mg: 1710.00 mg
+Sodium, Na: 50.00 mg
+Niacin: 19.60 mg
+Phosphorus, P: 3520.00 mg
+Protein: 216.00 g
+Riboflavin: 1.93 mg
+Sugars, total including NLEA: 21.20 g
+Thiamin: 9.00 mg
+Vitamin E (alpha-tocopherol): 2.10 mg
+Vitamin A, RAE: 51.00 µg
+Vitamin B-12: 0.00 µg
+Vitamin B-6: 2.86 mg
+Vitamin C, total ascorbic acid: 0.00 mg
+Vitamin D (D2 + D3), International Units: 0.00 IU
+Vitamin K (phylloquinone): 56.00 µg
+Water: 110.00 g
+Zinc, Zn: 36.50 mg
+
+olive oil: 200.00 milliliter
+Calcium, Ca: 1.83 mg
+Carbohydrate, by difference: 0.00 g
+Cholesterol: 0.00 mg
+Energy: 1614.15 kcal
+Fatty acids, total monounsaturated: 133.29 g
+Fatty acids, total polyunsaturated: 19.17 g
+Fatty acids, total saturated: 25.20 g
+Total lipid (fat): 182.60 g
+Iron, Fe: 1.02 mg
+Fiber, total dietary: 0.00 g
+Folic acid: 0.00 µg
+Folate, DFE: 0.00 µg
+Folate, food: 0.00 µg
+Potassium, K: 1.83 mg
+Magnesium, Mg: 0.00 mg
+Sodium, Na: 3.65 mg
+Niacin: 0.00 mg
+Phosphorus, P: 0.00 mg
+Protein: 0.00 g
+Riboflavin: 0.00 mg
+Sugars, total including NLEA: 0.00 g
+Thiamin: 0.00 mg
+Vitamin E (alpha-tocopherol): 26.29 mg
+Vitamin A, RAE: 0.00 µg
+Vitamin B-12: 0.00 µg
+Vitamin B-6: 0.00 mg
+Vitamin C, total ascorbic acid: 0.00 mg
+Vitamin D (D2 + D3), International Units: 0.00 IU
+Vitamin K (phylloquinone): 109.92 µg
+Water: 0.00 g
+Zinc, Zn: 0.00 mg
+
+Total Calories: 9462.38 kcal
+Total Protein: 458.20 g
+Total Carbohydrates: 1109.48 g
+Total Fats: 359.22 g
