@@ -1,3 +1,91 @@
+#my_recipe
+
+Total Calories: 9462.38 kcal
+Total Protein: 458.20 g
+Total Carbohydrates: 1109.48 g
+Total Fats: 359.22 g
+
+##Ingredients:
+
+6 bell peppers
+500g of rice
+1kg of chicken
+500ml of chicken broth
+2 large onions
+1kg of black beans
+200ml of olive oil
+
+##Diet Labels:
+
+- Balanced
+- High-Fiber
+- Low-Sodium
+
+##Health Labels:
+
+- Sugar-Conscious
+- Mediterranean
+- Dairy-Free
+- Gluten-Free
+- Wheat-Free
+- Egg-Free
+- Milk-Free
+- Peanut-Free
+- Tree-Nut-Free
+- Soy-Free
+- Fish-Free
+- Shellfish-Free
+- Pork-Free
+- Red-Meat-Free
+- Crustacean-Free
+- Celery-Free
+- Mustard-Free
+- Sesame-Free
+- Lupine-Free
+- Mollusk-Free
+- Alcohol-Free
+- No-Sugar-Added
+- Sulphite-Free
+- Kosher
+
+##Total Nutrients:
+
+Calcium, Ca: 1521.02 mg
+Carbohydrate, by difference: 1109.48 g
+Carbohydrates (net): 934.38 g
+Cholesterol: 765.22 mg
+Energy: 9462.38 kcal
+Fatty acids, total monounsaturated: 200.87 g
+Fatty acids, total polyunsaturated: 60.59 g
+Fatty acids, total saturated: 74.92 g
+Total lipid (fat): 359.22 g
+Fatty acids, total trans: 0.97 g
+Iron, Fe: 68.99 mg
+Fiber, total dietary: 175.09 g
+Folic acid: 0.00 µg
+Folate, DFE: 4955.80 µg
+Folate, food: 4955.80 µg
+Potassium, K: 19598.94 mg
+Magnesium, Mg: 2220.97 mg
+Sodium, Na: 1524.52 mg
+Niacin: 110.95 mg
+Phosphorus, P: 5939.59 mg
+Protein: 458.20 g
+Riboflavin: 4.49 mg
+Sugars, total including NLEA: 71.92 g
+Thiamin: 10.65 mg
+Vitamin E (alpha-tocopherol): 42.89 mg
+Vitamin A, RAE: 1587.54 µg
+Vitamin B-12: 3.10 µg
+Vitamin B-6: 9.83 mg
+Vitamin C, total ascorbic acid: 953.13 mg
+Vitamin D (D2 + D3): 2.00 µg
+Vitamin K (phylloquinone): 218.12 µg
+Water: 2227.76 g
+Zinc, Zn: 58.41 mg
+
+##Nutrient breakdown report:
+
 red bell pepper: 6.00 whole
 Calcium, Ca: 49.98 mg
 Carbohydrate, by difference: 43.05 g
@@ -227,8 +315,4 @@ Vitamin D (D2 + D3), International Units: 0.00 IU
 Vitamin K (phylloquinone): 109.92 µg
 Water: 0.00 g
 Zinc, Zn: 0.00 mg
-
-Total Calories: 9462.38 kcal
-Total Protein: 458.20 g
-Total Carbohydrates: 1109.48 g
-Total Fats: 359.22 g
+---
