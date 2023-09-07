@@ -48,7 +48,7 @@ async fn write_data_to_file(
     data: Value,
 ) -> Result<(), Box<dyn Error>> {
     // Create a file to write the data
-    let mut file = File::create(format!("{}.txt", title))?;
+    let mut file = File::create(format!("{}.md", title))?;
 
     // Write the summary at the top of the output file
     writeln!(file, "#{}\n", title)?;
@@ -210,18 +210,21 @@ fn read_value_from_file(filename: &str) -> Result<Value, Box<dyn Error>> {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let title_recipe: &str = "my_recipe";
+    let title_recipe: &str = "Fast-beef-potatoe-wok";
     let ingredients: Vec<&str> = vec![
-        "6 bell peppers",
-        "500g of rice",
-        "1kg of chicken",
-        "500ml of chicken broth",
-        "2 large onions",
-        "1kg of black beans",
-        "200ml of olive oil",
-    ]; // Replace with your recipe ingredients
-       // let data: Value = get_data_for_recipe(title_recipe, &ingredients).await?;
-       // write_value_to_file(&data, "temp_data.json");
+        "500g of beef",
+        "2 onions",
+        "2 leeks",
+        "300g of mushrooms",
+        "20g of sesame seeds",
+        "50g of flax seeds",
+        "600g of potatoes",
+        "100ml of sunflower oil",
+    ];
+
+    // Commented to save me an api call
+    // let data: Value = get_data_for_recipe(title_recipe, &ingredients).await?;
+    // let _ = write_value_to_file(&data, "temp_data.json");
 
     let data: Value = read_value_from_file("temp_data.json")?;
     write_data_to_file(title_recipe, &ingredients, data).await?;

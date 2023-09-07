@@ -1,4 +1,4 @@
-#my_recipe
+#Mealprep-rice-bean-chicken
 
 Total Calories: 9462.38 kcal
 Total Protein: 458.20 g
