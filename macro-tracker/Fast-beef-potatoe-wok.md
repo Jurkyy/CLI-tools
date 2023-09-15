@@ -1,11 +1,11 @@
-#Fast-beef-potatoe-wok
+# Fast-beef-potatoe-wok
 
 Total Calories: 2582.73 kcal
 Total Protein: 147.68 g
 Total Carbohydrates: 183.14 g
 Total Fats: 149.58 g
 
-##Ingredients:
+## Ingredients:
 
 500g of beef
 2 onions
@@ -16,11 +16,11 @@ Total Fats: 149.58 g
 600g of potatoes
 100ml of sunflower oil
 
-##Diet Labels:
+## Diet Labels:
 
 - Low-Sodium
 
-##Health Labels:
+## Health Labels:
 
 - Sugar-Conscious
 - Dairy-Free
@@ -44,7 +44,7 @@ Total Fats: 149.58 g
 - Sulphite-Free
 - Kosher
 
-##Total Nutrients:
+## Total Nutrients:
 
 Calcium, Ca: 631.02 mg
 Carbohydrate, by difference: 183.14 g
@@ -80,7 +80,7 @@ Vitamin K (phylloquinone): 111.29 µg
 Water: 1488.81 g
 Zinc, Zn: 34.77 mg
 
-##Nutrient breakdown report:
+## Nutrient breakdown report:
 
 beef: 500.00 gram
 Calcium, Ca: 65.00 mg

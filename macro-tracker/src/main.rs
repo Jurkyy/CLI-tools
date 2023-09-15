@@ -51,7 +51,7 @@ async fn write_data_to_file(
     let mut file = File::create(format!("{}.md", title))?;
 
     // Write the summary at the top of the output file
-    writeln!(file, "#{}\n", title)?;
+    writeln!(file, "# {}\n", title)?;
 
     // Calculate total nutrients
     if let Some(total_calories_value) = data["totalNutrients"]["ENERC_KCAL"]["quantity"].as_f64() {
@@ -73,7 +73,7 @@ async fn write_data_to_file(
         }
     }
 
-    writeln!(file, "\n##Ingredients:\n")?;
+    writeln!(file, "\n## Ingredients:\n")?;
 
     // Write the list of ingredients used as specified
     for ingredient in ingredients {
@@ -103,7 +103,7 @@ async fn write_data_to_file(
     }
 
     // Write the diet labels
-    writeln!(file, "\n##Diet Labels:\n")?;
+    writeln!(file, "\n## Diet Labels:\n")?;
     for diet_label in data["dietLabels"].as_array().unwrap_or(&vec![]) {
         if let Some(label) = diet_label.as_str() {
             writeln!(file, "- {}", format_label(label))?;
@@ -111,7 +111,7 @@ async fn write_data_to_file(
     }
 
     // Write the health labels
-    writeln!(file, "\n##Health Labels:\n")?;
+    writeln!(file, "\n## Health Labels:\n")?;
     for health_label in data["healthLabels"].as_array().unwrap_or(&vec![]) {
         if let Some(label) = health_label.as_str() {
             writeln!(file, "- {}", format_label(label))?;
@@ -119,7 +119,7 @@ async fn write_data_to_file(
     }
 
     // Add a line separator before the total nutrients
-    writeln!(file, "\n##Total Nutrients:\n")?;
+    writeln!(file, "\n## Total Nutrients:\n")?;
 
     // Iterate over the total nutrients and write them
     let total_nutrients = &data["totalNutrients"];
@@ -137,7 +137,7 @@ async fn write_data_to_file(
     }
 
     // Add a line separator before the nutrient breakdown
-    writeln!(file, "\n##Nutrient breakdown report:\n")?;
+    writeln!(file, "\n## Nutrient breakdown report:\n")?;
 
     // Iterate over the ingredients and their nutrients
     for (index, ingredient) in data["ingredients"]
