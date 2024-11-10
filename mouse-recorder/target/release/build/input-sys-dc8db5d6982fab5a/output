@@ -1,3 +1,0 @@
-cargo:rustc-env=LIBINPUT_TARGET_OS=linux
-cargo:rustc-env=LIBINPUT_TARGET_ARCH=x86_64
-cargo:rustc-env=LIBINPUT_VERSION_STR=1_15
